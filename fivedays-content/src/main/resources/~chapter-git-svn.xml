@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.sonatype.com/tmp/docbook/xml/4.5/docbookx.dtd">
+<chapter id="intro">
+  <title>Git-SVN integration</title>
+
+  <section id="intro-sect-intro">
+    <title>Introduction</title>
+
+    <para>SVN is quite common used in enterprise, and in order to smoothly
+    migrate to git, git-svn integration model could be used the step to git
+    completely</para>
+
+    <para>And here list the quick summary</para>
+  </section>
+
+  <section>
+    <title>SVN background</title>
+
+    <para>Nexus Open Source provides you with an essential level of control
+    over the external Maven repositories you use and the internal repositories
+    you create. It provides infrastructure and services for organizations that
+    use repository managers to obtain and deliver software. If you create
+    software libraries or applications for your end-users, you can use Nexus
+    Open Source to distribute your software. If your software depends upon
+    open source software components, you can cache software artifacts from
+    remote repositories.</para>
+
+    <section id="intro-sect-open-features">
+      <title>SVN Features</title>
+
+      <variablelist>
+        <varlistentry>
+          <term>Hosting Repositories</term>
+
+          <listitem>
+            <para>When you host a Maven repository with Nexus Open Source, you
+            can upload artifacts using the Nexus interface, or you can deploy
+            artifacts to hosted repositories using Maven. Nexus will also
+            create the standard Nexus Index for all of your hosted
+            repositories which will allow tools like m2eclipse to rapidly
+            locate software artifacts for your developers.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <variablelist>
+        <varlistentry>
+          <term>Artifact Search</term>
+
+          <listitem>
+            <para>Nexus Open Source provides an intuitive search feature which
+            allows you to search for software artifacts by identifiers such as
+            groupId, artifactId, version, classifier, and packaging, names of
+            classes contained in Java archives, keywords, and artifact
+            checksums. Nexus search makes use of the industry standard for
+            repository indexes, the Nexus Index format, and Nexus will
+            automatically download a Nexus index from all remote repositories
+            which create a Nexus index. Nexus will also automatically expose a
+            Nexus index for any hosted repositories you create.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+
+    <section>
+      <title>Nexus Open Source License</title>
+
+      <para>Nexus Open Source is available under the GNU General Public
+      License version 3 (GPLv3). The text of this license is available from
+      the Open Source Initiative (OSI) here: <ulink
+      url="http://www.opensource.org/licenses/gpl-3.0.html">http://www.opensource.org/licenses/gpl-3.0.html</ulink>.</para>
+
+      <para>The Nexus Indexer is made</para>
+    </section>
+  </section>
+
+  <section>
+    <title>Nexus Professional</title>
+
+    <para>Nexus Professional was designed to meet the needs of the enterprise.
+    It is a central point of access to external repositories which provides
+    the necessary controls to make sure that only approved artifacts enter
+    into your software development environment. It is also a central
+    distribution point with the intelligence required to support the decision
+    that go into making quality software. The extensibility provided by the
+    custom metadata plugin coupled with REST services only available in Nexus
+    Professional also lay the foundation for highly complex interactions
+    within the enterprise. Once you start to use the workflow and decision
+    support features of Nexus Professional, you will start to see it as the
+    “assembly line” - the central collaboration point for your software
+    development efforts.</para>
+  </section>
+
+  <section id="intro-sect-choosing">
+    <title></title>
+
+    <section>
+      <title></title>
+
+      <variablelist>
+        <varlistentry>
+          <term></term>
+
+          <listitem>
+            <para>.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+
+    <section>
+      <title>Working architecture</title>
+
+      <para>The following table summarizes the differences between Nexus Open
+      Source and Nexus Professional:</para>
+
+      <figure id="fig-intro-open-v-pro">
+        <title>Git-SVN </title>
+
+        <mediaobject>
+          <imageobject role="web" security="">
+            <imagedata fileref="figs/web/git-svn-arch-manual-sync.png" />
+          </imageobject>
+
+          <imageobject role="print" security="">
+            <imagedata align="center"
+                       fileref="figs/print/git-svn-arch-manual-sync.pdf"
+                       scalefit="0" width="100%" wordsize="" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </section>
+  </section>
+
+  <section id="intro-sect-history">
+    <title>History of Nexus</title>
+
+    <para><indexterm>
+        <primary>Nexus</primary>
+
+        <secondary>history of</secondary>
+      </indexterm><indexterm>
+        <primary>Cservenak, Tamas</primary>
+      </indexterm>Tamas Cservenak started working on <indexterm>
+        <primary>Proximity</primary>
+      </indexterm>Proximity in December 2005 as he was trying to find a way to
+    isolate his own systems from an incredibly slow <acronym>ADSL</acronym>
+    connection provided by a Hungarian <acronym>ISP</acronym>. Proximity
+    started as a simple web application to proxy artifacts for a small
+    organization with connectivity issues. Creating a local on-demand cache
+    for Maven artifacts from the central Maven repository gave an organization
+    access to the artifacts on the Central Maven Repository, but it also made
+    sure that these artifacts weren't downloaded over a very slow
+    <acronym>ADSL</acronym> connection used by a number of developers. In
+    2007, <indexterm>
+        <primary>Sonatype</primary>
+      </indexterm>Sonatype asked Tamas to help create a similar product named
+    Nexus. Nexus is currently considered the logical next step to Proximity.
+    Nexus currently has an active development team, and portions of the
+    indexing code from Nexus are also being used in <indexterm>
+        <primary>m2eclipse</primary>
+      </indexterm>m2eclipse.</para>
+  </section>
+</chapter>

@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.shanboli.fivedays</groupId>
+  <artifactId>fivedays-parent</artifactId>
+  <packaging>pom</packaging>
+  <name>5 days</name>
+  <version>0.2-SNAPSHOT</version>
+  <description>5 days</description>
+  <url>http://tech.groups.yahoo.com/group/ScrumChina/</url>
+  <organization>
+    <name>Scrum China Alliance</name>
+    <url>http://tech.groups.yahoo.com/group/ScrumChina/</url>
+  </organization>
+  <properties>
+    <book.title>5 days' agile development training</book.title>
+    <book.subtitle>learn by example</book.subtitle>
+    <organization.address>China Community</organization.address>
+    <organization.slogan>Make Scrum better in China</organization.slogan>
+    <copyright.year>2010</copyright.year>
+	<docbkx-tools.version>2.0.10</docbkx-tools.version>
+	<!-- can't find 2.0.11-SNAPSHOT, switch to 2.0.10 -->
+    <!-- docbkx-tools.version>2.0.11-SNAPSHOT</docbkx-tools.version -->
+  </properties>
+  <developers>
+    <developer>
+      <id>larrycai</id>
+      <name>Larry Cai</name>
+      <email>larry.caiyu@gmail.com</email>
+      <roles>
+        <role>Author</role>
+      </roles>
+    </developer>
+  </developers>
+  <modules>
+    <module>fivedays-content</module>
+    <module>fivedays-html</module>
+    <module>fivedays-pdf</module>
+  </modules>
+  <build>
+    <plugins>
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-compiler-plugin</artifactId>
+	<configuration>
+	  <source>1.5</source>
+	  <target>1.5</target>
+	</configuration>
+      </plugin>
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-release-plugin</artifactId>
+        <version>2.0-beta-9</version>
+        <configuration>
+          <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
+          <autoVersionSubmodules>true</autoVersionSubmodules>
+          <goals>clean compile install site-deploy</goals>
+          <releaseProfiles>publish</releaseProfiles>
+	  <preparationGoals>clean install</preparationGoals>
+          <useReleaseProfile>false</useReleaseProfile>
+        </configuration>
+	<dependencies>
+	  <dependency>
+	    <groupId>org.apache.maven.scm</groupId>
+	    <artifactId>maven-scm-provider-gitexe
+	    </artifactId>
+	    <version>1.2</version>
+	  </dependency>
+	</dependencies>
+      </plugin>
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-scm-plugin</artifactId>
+	<version>1.2</version>
+	<dependencies>
+	  <dependency>
+	    <groupId>org.apache.maven.scm</groupId>
+	    <artifactId>maven-scm-provider-gitexe
+	    </artifactId>
+	    <version>1.2</version>
+	  </dependency>
+	</dependencies>
+      </plugin>
+    </plugins>
+  </build>
+</project>

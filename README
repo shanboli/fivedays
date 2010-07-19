@@ -2,6 +2,8 @@ This book will be written in docbook format
 
 It aims to provide agile engineering training after CSM training to gain real development experience
 
+Big thanks to Tim O'Brien to let me reuse his template (no matter I can complete this manual or not)
+
 day 1: establish the agile environment: version control (svn), maven, hudson CI , eclipse. nexus
 day 2: TDD, junit with coverage
 day 3: TDD, quality control : PMD, FindBugs, coverage, SONAR
