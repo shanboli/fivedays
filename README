@@ -1,0 +1,5 @@
+day 1: establish the agile environment: version control (svn), maven, hudson CI , eclipse. nexus
+day 2: TDD, junit with coverage
+day 3: TDD, quality control : PMD, FindBugs, coverage, SONAR
+day 4: collaboration with mylyn (trac), frequent release, package: maven respository more
+day 5: ??? 
