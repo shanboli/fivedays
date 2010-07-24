@@ -5,6 +5,7 @@ cobertura.ser
 .classpath
 .settings/
 *~
+~*
 pom.xml~
 .svn/*
 release.properties
