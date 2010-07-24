@@ -82,7 +82,8 @@
                      Headers and Footers
     ################################################### -->
     <xsl:template name="user.head.content">
-
+         <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection"/>
+         <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"/>
     </xsl:template>
     <xsl:template name="user.header.navigation">
     </xsl:template>
@@ -96,12 +97,7 @@
         <xsl:variable name="row1" select="count($prev) &gt; 0
                                         or count($up) &gt; 0
                                         or count($next) &gt; 0"/>
-        <xsl:variable name="row2" select="($prev and $navig.showtitles != 0)
-                                        or (generate-id($home) != generate-id(.)
-                                            or $nav.context = 'toc')
-                                        or ($chunk.tocs.and.lots != 0
-                                            and $nav.context != 'toc')
-                                        or ($next and $navig.showtitles != 0)"/>
+        <xsl:variable name="row2" select="($prev and $navig.showtitles != 0)                                         or (generate-id($home) != generate-id(.)                                             or $nav.context = 'toc')                                         or ($chunk.tocs.and.lots != 0                                             and $nav.context != 'toc')                                         or ($next and $navig.showtitles != 0)"/>
         <xsl:if test="$suppress.navigation = '0' and $suppress.footer.navigation = '0'">
             <div class="navheader">
                 <xsl:if test="$row1 or $row2">
@@ -109,7 +105,7 @@
                         <xsl:if test="$row1">
                             <tr>
                                 <td width="40%" align="left">
-                                    <xsl:if test="count($prev)>0">
+                                    <xsl:if test="count($prev)&gt;0">
                                         <a accesskey="p">
                                             <xsl:attribute name="href">
                                                 <xsl:call-template name="href.target">
@@ -154,7 +150,7 @@
                                 </td>
                                 <td width="40%" align="right">
                                     <xsl:text>&#160;</xsl:text>
-                                    <xsl:if test="count($next)>0">
+                                    <xsl:if test="count($next)&gt;0">
                                         <a accesskey="n">
                                             <xsl:attribute name="href">
                                                 <xsl:call-template name="href.target">
@@ -182,12 +178,7 @@
         <xsl:variable name="row1" select="count($prev) &gt; 0
                                         or count($up) &gt; 0
                                         or count($next) &gt; 0"/>
-        <xsl:variable name="row2" select="($prev and $navig.showtitles != 0)
-                                        or (generate-id($home) != generate-id(.)
-                                            or $nav.context = 'toc')
-                                        or ($chunk.tocs.and.lots != 0
-                                            and $nav.context != 'toc')
-                                        or ($next and $navig.showtitles != 0)"/>
+        <xsl:variable name="row2" select="($prev and $navig.showtitles != 0)                                         or (generate-id($home) != generate-id(.)                                             or $nav.context = 'toc')                                         or ($chunk.tocs.and.lots != 0                                             and $nav.context != 'toc')                                         or ($next and $navig.showtitles != 0)"/>
         <xsl:if test="$suppress.navigation = '0' and $suppress.footer.navigation = '0'">
             <div class="navfooter">
                 <xsl:if test="$footer.rule != 0">
@@ -198,7 +189,7 @@
                         <xsl:if test="$row1">
                             <tr>
                                 <td width="40%" align="left">
-                                    <xsl:if test="count($prev)>0">
+                                    <xsl:if test="count($prev)&gt;0">
                                         <a accesskey="p">
                                             <xsl:attribute name="href">
                                                 <xsl:call-template name="href.target">
@@ -249,7 +240,7 @@
                                 </td>
                                 <td width="40%" align="right">
                                     <xsl:text>&#160;</xsl:text>
-                                    <xsl:if test="count($next)>0">
+                                    <xsl:if test="count($next)&gt;0">
                                         <a accesskey="n">
                                             <xsl:attribute name="href">
                                                 <xsl:call-template name="href.target">
@@ -274,8 +265,7 @@
                                 </td>
                                 <td width="20%" align="center">
                                     <span style="color:white;font-size:90%;">
-                                        <a href="http://www.sonatype.com/"
-                                           title="Sonatype: Build Success for your Enterprise">Sponsored by Sonatype
+                                        <a href="http://www.github.com/">Sponsored by Github
                                         </a>
                                     </span>
                                 </td>
@@ -396,3 +386,4 @@
 </xsl:template>
 
 </xsl:stylesheet>
+

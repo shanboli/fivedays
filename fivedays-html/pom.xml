@@ -65,10 +65,13 @@
 					<chunkSectionDepth>1</chunkSectionDepth>
 					<postProcess>
 						<copy todir="${project.build.directory}/html/images">
-							<fileset dir="${basedir}/src/main/resources/images" />
+							<fileset dir="${basedir}/src/main/resources/images"/>
 						</copy>
 						<copy todir="${project.build.directory}/html/figs/web">
-							<fileset dir="target/docbook/figs/web" />
+							<fileset dir="target/docbook/figs/web"/>
+						</copy>
+					    <copy todir="${project.build.directory}/html/css">
+							<fileset dir="${basedir}/src/main/resources/css"/>
 						</copy>
 					</postProcess>
 				</configuration>
@@ -114,3 +117,4 @@
 	</dependencies>
 
 </project>
+
