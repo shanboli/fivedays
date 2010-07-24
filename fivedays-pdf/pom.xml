@@ -209,12 +209,8 @@
 							<outputFilename>fivedays-complete.pdf</outputFilename>
 							<pdfs>
 								<pdf>${basedir}/src/main/resources/manual-cover.pdf</pdf>
-								<pdf>${basedir}/src/main/resources/title-page.pdf</pdf>
-								<pdf>${basedir}/src/main/resources/copyright-page.pdf</pdf>
-								<pdf>${basedir}/src/main/resources/promo-page.pdf</pdf>
 								<pdf>${basedir}/target/book-fivedays.pdf</pdf>
-								<pdf>${basedir}/src/main/resources/blank-page.pdf</pdf>
-								<pdf>${basedir}/src/main/resources/book-back-cover.pdf</pdf>							</pdfs>
+							</pdfs>
 						</configuration>
 					</execution>
 				</executions>
@@ -229,3 +225,4 @@
 		</dependency>
 	</dependencies>
 </project>
+
