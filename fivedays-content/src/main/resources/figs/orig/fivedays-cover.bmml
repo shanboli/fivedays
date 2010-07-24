@@ -1,0 +1,55 @@
+<mockup version="1.0" skin="sketch" measuredW="1084" measuredH="1134" mockupW="1052" mockupH="1113">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="126" y="26" w="841" h="605" measuredW="500" measuredH="350" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <borderStyle>none</borderStyle>
+        <src>%24ACCOUNT/assets/animal2.gif</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Title" x="113" y="646" w="-1" h="-1" measuredW="910" measuredH="107" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>72</size>
+        <text>5%20days%27%20agile%20development</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="101" y="569" w="935" h="240" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderColor>0</borderColor>
+        <color>545684</color>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="161" y="11" w="730" h="25" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderColor>0</borderColor>
+        <color>545684</color>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="22" y="11" w="1052" h="1113" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="623" y="820" w="413" h="61" measuredW="413" measuredH="46" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Taste%20scrum%20with%20real%20project</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="709" y="1018" w="-1" h="-1" measuredW="327" measuredH="51" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>32</size>
+        <text>Larry%20Cai%2C%20Li%20Shanbo</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Image" x="69" y="1018" w="197" h="49" measuredW="88" measuredH="31" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
