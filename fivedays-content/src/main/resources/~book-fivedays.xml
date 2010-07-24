@@ -79,14 +79,7 @@
 
   <xi:include href="chapter-day1.xml"
               xmlns:xi="http://www.w3.org/2001/XInclude" />
-  <xi:include href="chapter-day2.xml"
-              xmlns:xi="http://www.w3.org/2001/XInclude" />
-  <xi:include href="chapter-day3.xml"
-              xmlns:xi="http://www.w3.org/2001/XInclude" />
-  <xi:include href="chapter-day4.xml"
-              xmlns:xi="http://www.w3.org/2001/XInclude" />
-  <xi:include href="chapter-day5.xml"
-              xmlns:xi="http://www.w3.org/2001/XInclude" />
+
   <xi:include href="appendix-license.xml"
               xmlns:xi="http://www.w3.org/2001/XInclude" />
 
@@ -95,5 +88,4 @@
 
   <index/>
 </book>
-
 
