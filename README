@@ -4,9 +4,32 @@ It aims to provide agile engineering training after CSM training to gain real de
 
 Big thanks to Tim O'Brien to let me reuse his template (no matter I can complete this manual or not)
 
-day 1: establish the agile environment: version control (svn), maven, hudson CI , eclipse. nexus
-day 2: TDD, junit with coverage
+Project:
+It is a leagcy GUI admin system, and want to be more ...
+Two or three teams work on same tasks to see challenge result??
+
+day 1: establish the agile environment: 
+(scrum, continuous integration, version control system and prepare for the project)
+09:00-10:00, Introduction, Scrum, seperate into teams
+10:00-12:00, version control svn, eclipse setup, maven
+12:00-13:00, lunch
+13:00-15:00, install hudson CI
+15:00-15:15, break
+15:15-17:00, install nexus, 3pp
+17:00-17:30, Quick review, summary, and the project introduction)
+
+day 2: Iteration 1, quality on the wall
+
+09:00-10:00, planning meeting 1, 2
+
+(refactory, junit, coverage, JIRA system )
+
 day 3: TDD, quality control : PMD, FindBugs, coverage, SONAR
+09:00-10:00 daily scrum meeting
+review and quick retrospective
+15:00-16:00, review meeting
+16:00-17:00, retrospective
+
 day 4: collaboration with mylyn (trac), frequent release, package: maven respository more
 day 5: ??? 
 
