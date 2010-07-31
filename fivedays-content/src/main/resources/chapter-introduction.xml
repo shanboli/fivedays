@@ -71,20 +71,9 @@
 
     <para>&lt;add a picture here&gt;</para>
 
-    <para>Let's consider a typical 21 students' training, it will be divided
-    into 3 teams from day 2.</para>
-
-    <para>every team will have a assistant or teacher and sit around the
-    table</para>
-
-    <para>teams will compete with each other on same tasks for more fun. (the
-    result could be quite different)</para>
-
-    <para>Review meeting will be done together, others are done seperated
-    ??</para>
-
-    <para>The screen will show the quality (hudson/sonar) for every team
-    </para>
+    <para>Every student will be paired with other different people for each
+    topic, so it is possible to meet most of others during the 5 days'
+    training.</para>
 
     <section>
       <title>Hardware</title>
@@ -92,14 +81,11 @@
       <para>One server is used to host the hudson, nexus, svn server, sonar,
       proxy server</para>
 
-      <para>Internet access should be provided in order to people to google
-      for the sample codes</para>
+      <para>Internet access could be provided in order to people to google for
+      the sample codes</para>
 
       <para>One big screen (or projector screen) is used to show the quality
       result </para>
-
-      <para>Whiteboard is used for planning and daily scrum standup
-      meeting</para>
 
       <para>Every student should bring own notebook (do we want to pair
       programming??) </para>
@@ -118,12 +104,12 @@
   <section>
     <title>Quick look 5 days' arrangement</title>
 
-    <para>&lt;add a picture here &gt;</para>
+    <para>&lt;add a agenda picture here &gt;</para>
 
     <para></para>
 
     <section id="intro-sect-open-features">
-      <title>Day 1, Introduction and establish the agile environment</title>
+      <title>Day 1, development infrastucture</title>
 
       <para>After the quick review of scrum (students should have scrum
       training already), the related java tools (continuous integration,
@@ -131,22 +117,22 @@
       install them by himself to experience it, though they will use
       pre-installed system for project development.</para>
 
-      <para>It aims to give deep understand how those tools work.</para>
+      <para>It aims to give deep understand the excellent java
+      infrastructure</para>
 
       <variablelist>
         <varlistentry>
-          <term>09:00-10:00</term>
+          <term>09:00-09:30</term>
 
           <listitem>
-            <para>Quick introduction of Scrum and environment
-            introduction</para>
+            <para>Quick introduction of Scrum and main related topics</para>
           </listitem>
         </varlistentry>
       </variablelist>
 
       <variablelist>
         <varlistentry>
-          <term>10:00-12:00</term>
+          <term>09:30-12:00</term>
 
           <listitem>
             <para>version control svn, eclipse setup, maven</para>
@@ -194,39 +180,51 @@
           <term>17:00-17:30</term>
 
           <listitem>
-            <para>Quick review, summary, and the project introduction</para>
+            <para>Quick review, summary</para>
           </listitem>
         </varlistentry>
       </variablelist>
     </section>
 
     <section>
-      <title>Day 2: Start first iteration and keep quality in mind</title>
+      <title>Day 2: Everything in eclipse</title>
 
-      <para></para>
-
-      <para>.</para>
-
-      <para></para>
-    </section>
-
-    <section>
-      <title>Day 3: End of first iteration and gain the feedback</title>
+      <para>It aims to cover most useful plugins in eclipse, JUnit, EclEMMA
+      will be key focus area</para>
 
       <para></para>
     </section>
 
     <section>
-      <title>Day 4: Start second iteration and learn TDD with
-      refactory</title>
+      <title>Day 3: TDD and refactoring</title>
 
-      <para></para>
+      <para>TDD by JUnit</para>
+
+      <para>Refactoring rename, extract method</para>
+
+      <para>Applying H2 to add DB testability as good example</para>
+
+      <para>FitNesse for ATDD</para>
+
+      <para>Selenium will be mentioned in the end</para>
     </section>
 
     <section>
-      <title>Day 5: End of second iteration and review the training</title>
+      <title>Day 4: Collaboration development</title>
 
-      <para></para>
+      <para>Wiki, </para>
+
+      <para>JIRA, Agilt, trac..</para>
+
+      <para>Mylyn ...??</para>
+    </section>
+
+    <section>
+      <title>Day 5: Release it and maintenance</title>
+
+      <para>maven snapshot, mvn site, web site </para>
+
+      <para>bugzilla ??</para>
     </section>
   </section>
 </chapter>

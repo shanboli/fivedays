@@ -6,34 +6,35 @@ Big thanks to Tim O'Brien to let me reuse his template (no matter I can complete
 
 Project:
 It is a leagcy GUI admin system, and want to be more ...
-Two or three teams work on same tasks to see challenge result??
+Every student will be paired with others for each tasks
 
-day 1: establish the agile environment: 
+Everyday, there will be 3-4 tools/topics to be learned, and each spends 1-2 hours
+
+day 1: establish the development infrastructure 
 (scrum, continuous integration, version control system and prepare for the project)
-09:00-10:00, Introduction, Scrum, seperate into teams
-10:00-12:00, version control svn, eclipse setup, maven
+09:00-9:30, Introduction, Scrum
+09:30-12:00, version control svn, eclipse setup, maven
 12:00-13:00, lunch
 13:00-15:00, install hudson CI
-15:00-15:15, break
-15:15-17:00, install nexus, 3pp
-17:00-17:30, Quick review, summary, and the project introduction)
+15:00-17:00, install nexus, 3pp
+17:00-17:30, Quick review, summary
 
-day 2: Iteration 1, quality on the wall
+day 2: Everything in eclipse, quality on the wall
 
-09:00-10:00, planning meeting 1, 2
+JUnit, PMD, FindBugs, Checkstyle, EclEMMA (Coverage), checkin and checkout
+
+day 3: TDD and refactory, FitNesse with Selenium, H2
 
 (refactory, junit, coverage, JIRA system )
 
-day 3: TDD, quality control : PMD, FindBugs, coverage, SONAR
-09:00-10:00 daily scrum meeting
-review and quick retrospective
-15:00-16:00, review meeting
-16:00-17:00, retrospective
+day 4: collaboration with wiki, mylyn, JIRA or Agilt or trac, bugzilla
 
-day 4: collaboration with mylyn (trac), frequent release, package: maven respository more
-day 5: ??? 
+day 5: frequent release, package: maven respository more
 
-The work will be license under CC-BY-NC-ND 3.0
+maven, snapshot, release
+
+The work will be licensed under CC-BY-NC-ND 3.0
+
 Copyright to ScrumAlliance China ??
 
 Initialized by Larry Cai (larry.caiyu@gmail.com) and Li Shanbo
