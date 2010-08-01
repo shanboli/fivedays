@@ -67,6 +67,15 @@
   </section>
 
   <section>
+    <title>Structure ??</title>
+
+    <para>Every day will cover several practices, therefore every day will
+    start with the introduction of the programmer's practices, then tools are
+    introduced and follow with the exercise. In the end, summary and reference
+    will be provided for homework to learn continuously.</para>
+  </section>
+
+  <section>
     <title>Environment</title>
 
     <para>&lt;add a picture here&gt;</para>
@@ -85,17 +94,17 @@
       the sample codes</para>
 
       <para>One big screen (or projector screen) is used to show the quality
-      result </para>
+      result</para>
 
       <para>Every student should bring own notebook (do we want to pair
-      programming??) </para>
+      programming??)</para>
 
       <para>Several reference books (Java Power Tools) should be provided for
       reference</para>
     </section>
 
     <section>
-      <title>Software </title>
+      <title>Software</title>
 
       <para>Eclipse with m2eclipse, ... maven, are packaged in advance</para>
     </section>
@@ -137,7 +146,7 @@
           <listitem>
             <para>version control svn, eclipse setup, maven</para>
 
-            <para>break around 10:30 </para>
+            <para>break around 10:30</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -158,7 +167,7 @@
           <term>13:00-15:00</term>
 
           <listitem>
-            <para>install hudson CI </para>
+            <para>install hudson CI</para>
 
             <para>15 mintues break in end of this session</para>
           </listitem>
@@ -196,13 +205,14 @@
     </section>
 
     <section>
-      <title>Day 3: TDD and refactoring</title>
+      <title>Day 3: TDD, refactoring and automation</title>
 
       <para>TDD by JUnit</para>
 
       <para>Refactoring rename, extract method</para>
 
-      <para>Applying H2 to add DB testability as good example</para>
+      <para>Applying H2 to add DB testability as good example for
+      automation</para>
 
       <para>FitNesse for ATDD</para>
 
@@ -212,7 +222,7 @@
     <section>
       <title>Day 4: Collaboration development</title>
 
-      <para>Wiki, </para>
+      <para>Wiki,</para>
 
       <para>JIRA, Agilt, trac..</para>
 
@@ -222,7 +232,7 @@
     <section>
       <title>Day 5: Release it and maintenance</title>
 
-      <para>maven snapshot, mvn site, web site </para>
+      <para>maven snapshot, mvn site, web site</para>
 
       <para>bugzilla ??</para>
     </section>

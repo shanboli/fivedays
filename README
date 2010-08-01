@@ -6,9 +6,12 @@ Big thanks to Tim O'Brien to let me reuse his template (no matter I can complete
 
 Project:
 It is a leagcy GUI admin system, and want to be more ...
-Every student will be paired with others for each tasks
+Every student will be paired with others for each practice
 
-Everyday, there will be 3-4 tools/topics to be learned, and each spends 1-2 hours
+
+Everyday, there will be 3-4 tools/topics to be learned, and each spends 1-2 hours, starts with introduction 
+for the practice, then related useful tools and exercise, before leave, summary with the reference will be 
+provided for homework
 
 day 1: establish the development infrastructure 
 (scrum, continuous integration, version control system and prepare for the project)

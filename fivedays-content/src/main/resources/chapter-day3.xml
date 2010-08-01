@@ -2,9 +2,106 @@
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
 "http://www.sonatype.com/tmp/docbook/xml/4.5/docbookx.dtd">
 <chapter id="day3">
-  <title>Day 3: Iteration 1, first release</title>
+  <title>Day 3: TDD, refactoring and automation</title>
 
   <section>
+    <title>Practices Introduction</title>
+
+    <para>TDD , refactory, a Later, we will experience on ATDD with
+    FitNesse</para>
+
+    <para>In the afternoon, start from H2, and apply with refacoring</para>
+
+    <para></para>
+
+    <section>
+      <title>TDD</title>
+
+      <para>TDD (Test driven development) is also called Test First
+      development</para>
+
+      <para>ATDD (Acceptance TDD) is used widely now as tester and designer in
+      the same team.</para>
+
+      <para>"Lasse's books is recommended to read go through"</para>
+    </section>
+
+    <section>
+      <title>Refactoring</title>
+
+      <para>What is refactoring</para>
+
+      <para>Refactoring is very useful on several cases</para>
+
+      <variablelist>
+        <varlistentry>
+          <term>Daily work </term>
+
+          <listitem>
+            <para>the codes need to be continued improved, "rename", "extract
+            method"</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Legacy codes</term>
+
+          <listitem>
+            <para>the codes are refactored to be sure not change ...</para>
+
+            <para></para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+
+    <section>
+      <title>Automation</title>
+
+      <para>As we learned in day 1, Continuously Integration is one of the top
+      agile programmer's practices, and we will face lots of dependance durig
+      the software development. For example, database.</para>
+    </section>
   </section>
 
+  <section>
+    <title>Tools</title>
+
+    <para></para>
+
+    <section>
+      <title>Eclipse</title>
+
+      <para>JUnit, and refactoring is </para>
+    </section>
+
+    <section>
+      <title>FitNesse</title>
+
+      <para>what is FitNesse</para>
+    </section>
+
+    <section>
+      <title>H2</title>
+
+      <para>H2 is quite popular embed database, therefore it is used so often
+      in software development </para>
+
+      <para></para>
+    </section>
+  </section>
+
+  <section>
+    <title>Exercise</title>
+
+    <para></para>
+  </section>
+
+  <section>
+    <title>Reference</title>
+
+    <para>HSQLDB, Seleium , GUI auto testing.</para>
+
+    <para></para>
+  </section>
 </chapter>
